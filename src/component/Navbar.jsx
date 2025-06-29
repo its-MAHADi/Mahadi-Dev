@@ -4,7 +4,8 @@ import ThemeToggle from './ThemeToggle'
 
 const Navbar = () => {
   return (
-    <div className="relative">
+   <div className="fixed top-0 left-0 w-full z-50 shadow-sm">
+     <div className="relative">
       {/* Navbar Main */}
       <div className="navbar bg-base-100 shadow-sm">
         <div className="navbar-start">
@@ -52,6 +53,7 @@ const Navbar = () => {
       {/* Gradient Border at Bottom */}
       <div className="h-[3px] w-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 absolute bottom-0 left-0" />
     </div>
+   </div>
   )
 }
 
