@@ -15,9 +15,9 @@ const About = () => {
             <h2 className="text-2xl font-bold mt-5 ">Md. Mahadi Hasan</h2>
             <p className="text-blue-500 font-semibold">MERN-Stack Web Developer</p>
             <div className="flex gap-4 mt-3 text-2xl">
-              <a href="#"><FaGithub /></a>
+              <a href="https://github.com/its-MAHADi"><FaGithub /></a>
               <a href="#"><FaLinkedin /></a>
-              <a href="#"><FaFacebook /></a>
+              <a href="https://www.facebook.com/mh.mahadi.921944/"><FaFacebook /></a>
             </div>
             <button className="mt-5 bg-blue-500 hover:bg-pink-600 text-white font-semibold px-6 py-2 rounded-full transition">
               Hire Me
