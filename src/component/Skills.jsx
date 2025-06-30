@@ -120,7 +120,7 @@ const Skills = () => {
   return (
     <div className="my-12">
       <div className="text-center mb-8">
-        <h1 className="text-4xl font-bold inline-block border-b-4 border-blue-500 pb-1">
+        <h1 id="skills" className="text-4xl font-bold inline-block border-b-4 border-blue-500 pb-1">
           Skills
         </h1>
       </div>

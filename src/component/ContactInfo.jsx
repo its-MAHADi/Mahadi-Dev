@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { MdEmail, MdPhone, MdWhatsapp } from 'react-icons/md';
+import emailjs from '@emailjs/browser';
 import toast, { Toaster } from 'react-hot-toast';
 
 const contactDetails = [
@@ -8,7 +9,7 @@ const contactDetails = [
         icon: <MdEmail className="text-blue-600 text-xl" />,
         label: 'Email',
         value: 'mhkhandakar57@gmail.com',
-        href: 'mailto:mhkhandakar57@gmail.com',
+        href: 'mailto:mhkhandakar57@gmail.com'
     },
     {
         icon: <MdPhone className="text-green-600 text-xl" />,
@@ -62,7 +63,7 @@ const ContactInfo = () => {
     };
 
     return (
-        <section id="contact" className=" py-16">
+        <section id="contact" className=" max-w-6xl mx-auto py-8">
             <Toaster position="top-right" />
            
       <div className="text-center mb-8">
@@ -71,7 +72,7 @@ const ContactInfo = () => {
         </h1>
       </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-15">
                 {/* Contact Form */}
                 <motion.form
                     onSubmit={handleSubmit}

@@ -24,7 +24,7 @@
   {
     "id": 3,
     "name": "DocTalk-Website",
-    "img": "https://i.ibb.co/k6Dpxt82/Screenshot-2025-06-30-152612.png",
+    "img": "https://i.ibb.co/V07tXpLM/Screenshot-2025-06-30-163356.png",
     "description": "DocTalk is a doctor consultation booking platform. Users can view doctors, check availability, and book appointments with smooth animations and secure login.",
     "tech": ["React", "Firebase", "Tailwind CSS", "React Router", "Framer Motion"],
     "challenges": "Creating a smooth user experience with hover cards and ensuring real-time booking visibility per user.",

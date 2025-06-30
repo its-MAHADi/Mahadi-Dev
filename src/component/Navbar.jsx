@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router'
 import ThemeToggle from './ThemeToggle'
+import { HashLink } from 'react-router-hash-link'
 
 const Navbar = () => {
   return (
@@ -16,15 +17,11 @@ const Navbar = () => {
               </svg>
             </div>
             <ul tabIndex={0} className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-              <li><a>Item 1</a></li>
-              <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                </ul>
-              </li>
-              <li><a>Item 3</a></li>
+         <a href="#hero" className="hover:underline">Home</a>
+          <a href="#about" className="hover:underline">About</a>
+          <a href="#skills" className="hover:underline">Skills</a>
+          <a href="#projects" className="hover:underline">Projects</a>
+          <a href="#contact" className="hover:underline">Contact</a>
             </ul>
           </div>
           <h1 className='text-xl font-extrabold'>{'<Mah'}<span className='text-blue-500'>adi</span>{'/>'}</h1>
@@ -32,11 +29,11 @@ const Navbar = () => {
 
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 gap-6 text-[16px] font-semibold">
-            <NavLink>Home</NavLink>
-            <NavLink>About</NavLink>
-            <NavLink>Education</NavLink>
-            <NavLink>Project</NavLink>
-            <NavLink>Contact</NavLink>
+           <HashLink smooth to="/#hero" className="hover:underline">Home</HashLink>
+  <HashLink smooth to="/#about" className="hover:underline">About</HashLink>
+  <HashLink smooth to="/#skills" className="hover:underline">Skills</HashLink>
+  <HashLink smooth to="/#projects" className="hover:underline">Projects</HashLink>
+  <HashLink smooth to="/#contact" className="hover:underline">Contact</HashLink>
           </ul>
         </div>
 

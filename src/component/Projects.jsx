@@ -82,7 +82,7 @@ const Projects = () => {
                 className="mt-4 bg-blue-600 hover:bg-blue-700 text-white py-2 rounded transition cursor-pointer"
                 onClick={(e) => {
                   e.stopPropagation();
-                  navigate(`/project/${project.route}`)
+                  navigate(`/projects/${project.id}`)
                 }}
               >
                 View Details

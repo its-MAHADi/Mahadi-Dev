@@ -6,7 +6,7 @@ import { SiExpress, SiMongodb, SiTailwindcss } from 'react-icons/si';
 
 const Banner = () => {
   return (
-    <div className="relative min-h-[90vh] flex items-center justify-center overflow-hidden px-4 mt-16 lg:px-20 py-10">
+    <div id='hero' className="relative min-h-[90vh] flex items-center justify-center overflow-hidden px-4 mt-16 lg:px-20 py-10">
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-10 w-full max-w-6xl mx-auto z-10">
         
         {/* Text Section */}

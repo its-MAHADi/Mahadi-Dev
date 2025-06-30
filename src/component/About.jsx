@@ -1,11 +1,11 @@
 import React from 'react';
 import { Fade, Slide } from 'react-awesome-reveal';
-import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import profile from '../assets/Md.Mahadi Hasan.jpg'; // replace with your image
 
 const About = () => {
   return (
-    <div className="py-7">
+    <div id='about' className="py-7">
       <div className=" grid grid-cols-1 md:grid-cols-2 items-center gap-10">
 
         {/* Left: Image and Socials */}
@@ -15,9 +15,10 @@ const About = () => {
             <h2 className="text-2xl font-bold mt-5 ">Md. Mahadi Hasan</h2>
             <p className="text-blue-500 font-semibold">MERN-Stack Web Developer</p>
             <div className="flex gap-4 mt-3 text-2xl">
-              <a href="https://github.com/its-MAHADi"><FaGithub /></a>
-              <a href="#"><FaLinkedin /></a>
-              <a href="https://www.facebook.com/mh.mahadi.921944/"><FaFacebook /></a>
+              <a href="https://github.com/its-MAHADi"target='_blank'><FaGithub /></a>
+              <a href="#"target='_blank'><FaLinkedin /></a>
+              <a href="https://www.instagram.com/__m_a_h_a_d_i___/"target='_blank'><FaInstagram /></a>
+              <a href="https://www.facebook.com/mh.mahadi.921944/"target='_blank'><FaFacebook /></a>
             </div>
             <button className="mt-5 bg-blue-500 hover:bg-pink-600 text-white font-semibold px-6 py-2 rounded-full transition">
               Hire Me
