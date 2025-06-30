@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Blog-Website",
+    "img": "https://i.ibb.co/Kcky6zRB/Screenshot-2025-06-30-151541.png",
+    "description": "A full-stack blogging platform where users can read, search, filter, comment, and wishlist blogs. It features Firebase Authentication, JWT security, and responsive design.",
+    "tech": ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Firebase", "JWT"],
+    "challenges": "Implementing dynamic search and category filter using MongoDB text index and aggregation. Handling secure user roles for commenting and wishlisting.",
+    "future": "Add blog like/upvote system, blog editing, author following, and markdown editor for post creation.",
+    "live": "https://blog-website-9cf78.web.app/",
+    "github": "https://github.com/its-MAHADi/Blog-Website"
+  },
+  {
+    "id": 2,
+    "name": "HobbyHub",
+    "img": "https://i.ibb.co/qwFdWmw/Screenshot-2025-06-30-143505.png",
+    "description": "HobbyHub is a MERN stack web app for discovering and joining local hobby groups. Users can create, update, delete groups, and view groups they’ve joined.",
+    "tech": ["React", "MongoDB", "Express.js", "Node.js", "Firebase Auth", "DaisyUI", "JWT"],
+    "challenges": "Filtering groups based on logged-in users and managing secure routes with conditional logic based on group ownership.",
+    "future": "Implement group chat, notifications for events, and location-based filtering.",
+    "live": "https://hobbyhub-project.web.app/",
+    "github": "https://github.com/its-MAHADi/HobbyHub"
+  },
+  {
+    "id": 3,
+    "name": "DocTalk-Website",
+    "img": "https://i.ibb.co/k6Dpxt82/Screenshot-2025-06-30-152612.png",
+    "description": "DocTalk is a doctor consultation booking platform. Users can view doctors, check availability, and book appointments with smooth animations and secure login.",
+    "tech": ["React", "Firebase", "Tailwind CSS", "React Router", "Framer Motion"],
+    "challenges": "Creating a smooth user experience with hover cards and ensuring real-time booking visibility per user.",
+    "future": "Add prescription upload, appointment history, and real-time chat with doctors.",
+    "live": "https://a8-doctalk-bd.netlify.app/",
+    "github": "https://github.com/its-MAHADi/DocTalk-Website"
+  }
+]

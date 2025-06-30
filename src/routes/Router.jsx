@@ -11,7 +11,7 @@ import Home from "../pages/Home/Home";
             {
                 path:'/',
                 element:<Home></Home>
-            }
+            },
         ]
     }
 ])
