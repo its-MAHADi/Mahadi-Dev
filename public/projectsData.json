@@ -1,6 +1,17 @@
 [
   {
     "id": 1,
+    "name": "FitVerse-Website",
+    "img": "https://i.ibb.co.com/1fPTsnyX/Screenshot-2025-08-06-235040.png",
+    "description": "FitVerse is a full-featured MERN stack fitness platform where users can sign up as **Admins**, **Trainers**, or **Members**. It includes booking training sessions, managing classes, making payments, and engaging with a dynamic **community forum** that supports posts, voting, and image sharing.",
+    "tech": ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "React Router", "Firebase","Axios","Stripe", "JWT"],
+    "challenges": "Role-based Dashboard Logic: Maintaining 3 separate dashboards (Admin, Trainer, Member) with appropriate route guards and UI conditions.Conditional Rendering: Showing or hiding components based on roles, login status, or ownership.,Stripe Integration: Managing secure payments and post-payment success UI updates.",
+    "future": "Admin Analytics Dashboard: Graphs showing total income, trainer activities, active users, and top-voted forum posts.Trainer Availability Calendar: So members can see free time slots and book accordingly.",
+    "live": "https://fitverse-c4822.web.app/",
+    "github": "https://github.com/its-MAHADi/FitVerse-Website"
+  },
+  {
+    "id": 2,
     "name": "Blog-Website",
     "img": "https://i.ibb.co/Kcky6zRB/Screenshot-2025-06-30-151541.png",
     "description": "A full-stack blogging platform where users can read, search, filter, comment, and wishlist blogs. It features Firebase Authentication, JWT security, and responsive design.",
@@ -11,7 +22,7 @@
     "github": "https://github.com/its-MAHADi/Blog-Website"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "HobbyHub",
     "img": "https://i.ibb.co/qwFdWmw/Screenshot-2025-06-30-143505.png",
     "description": "HobbyHub is a MERN stack web app for discovering and joining local hobby groups. Users can create, update, delete groups, and view groups they’ve joined.",
@@ -22,7 +33,7 @@
     "github": "https://github.com/its-MAHADi/HobbyHub"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "DocTalk-Website",
     "img": "https://i.ibb.co/V07tXpLM/Screenshot-2025-06-30-163356.png",
     "description": "DocTalk is a doctor consultation booking platform. Users can view doctors, check availability, and book appointments with smooth animations and secure login.",

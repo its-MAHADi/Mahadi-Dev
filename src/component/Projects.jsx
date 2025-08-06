@@ -6,6 +6,14 @@ import { useNavigate } from 'react-router';
 const projects = [
   {
     id: 1,
+    route: "FitVerse-Website",
+    name: "FitVerse Website",
+    img: "https://i.ibb.co.com/1fPTsnyX/Screenshot-2025-08-06-235040.png",
+    description:
+      "FitVerse is a full-featured MERN stack fitness platform where users can sign up as **Admins**, **Trainers**, or **Members**. It includes booking training sessions, managing classes, making payments, and engaging with a dynamic **community forum** that supports posts, voting, and image sharing.",
+  },
+  {
+    id: 2,
     route: "blog-Website",
     name: "Blog Website",
     img: "https://i.ibb.co/Kcky6zRB/Screenshot-2025-06-30-151541.png",
@@ -13,7 +21,7 @@ const projects = [
       "A full-stack blogging platform where users can read, search, filter, comment, and wishlist blogs. It features Firebase Authentication, JWT security, and responsive design.",
   },
   {
-    id: 2,
+    id: 3,
     route: "hobbyhub",
     name: "HobbyHub",
     img: "https://i.ibb.co/qwFdWmw/Screenshot-2025-06-30-143505.png",
@@ -21,7 +29,7 @@ const projects = [
       "HobbyHub is a MERN stack web app for discovering and joining local hobby groups. Users can create, update, delete groups, and view groups they’ve joined.",
   },
   {
-    id: 3,
+    id: 4,
     route: "DocTalk",
     name: "DocTalk-Website",
     img: "https://i.ibb.co/V07tXpLM/Screenshot-2025-06-30-163356.png",
