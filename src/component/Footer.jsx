@@ -7,7 +7,7 @@ const Footer = () => {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, ease: 'easeOut' }}
-      className="bg-gray-100 dim:bg-gray-800 text-gray-700 dim:text-gray-300 py-6 mt-16"
+      className=" border-t-2 py-6 mt-16"
     >
       <div className="max-w-6xl mx-auto px-4 text-center">
         {/* Optional Logo or Name */}
@@ -19,6 +19,7 @@ const Footer = () => {
           <a href="#about" className="hover:underline">About</a>
           <a href="#skills" className="hover:underline">Skills</a>
           <a href="#projects" className="hover:underline">Projects</a>
+          <a href="#educational" className="hover:underline">Educational</a>
           <a href="#contact" className="hover:underline">Contact</a>
         </div>
 

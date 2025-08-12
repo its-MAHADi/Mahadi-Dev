@@ -16,7 +16,7 @@ const projects = [
     id: 2,
     route: "blog-Website",
     name: "Blog Website",
-    img: "https://i.ibb.co/Kcky6zRB/Screenshot-2025-06-30-151541.png",
+    img: "https://i.ibb.co.com/twLLLSjr/Screenshot-2025-08-12-163116.png",
     description:
       "A full-stack blogging platform where users can read, search, filter, comment, and wishlist blogs. It features Firebase Authentication, JWT security, and responsive design.",
   },

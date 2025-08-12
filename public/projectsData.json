@@ -13,7 +13,7 @@
   {
     "id": 2,
     "name": "Blog-Website",
-    "img": "https://i.ibb.co/Kcky6zRB/Screenshot-2025-06-30-151541.png",
+    "img": "https://i.ibb.co.com/twLLLSjr/Screenshot-2025-08-12-163116.png",
     "description": "A full-stack blogging platform where users can read, search, filter, comment, and wishlist blogs. It features Firebase Authentication, JWT security, and responsive design.",
     "tech": ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Firebase", "JWT"],
     "challenges": "Implementing dynamic search and category filter using MongoDB text index and aggregation. Handling secure user roles for commenting and wishlisting.",

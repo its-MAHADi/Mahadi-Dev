@@ -6,7 +6,7 @@ import { SiExpress, SiMongodb, SiTailwindcss } from 'react-icons/si';
 
 const Banner = () => {
   return (
-    <div id='hero' className="relative min-h-[90vh] flex items-center justify-center overflow-hidden px-4 mt-16 lg:px-20 py-10">
+    <div id='home' className="relative min-h-[90vh] flex items-center justify-center overflow-hidden px-4 mt-16 lg:px-20 py-10">
       <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-10 w-full max-w-6xl mx-auto z-10">
         
         {/* Text Section */}
@@ -35,12 +35,18 @@ const Banner = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <button className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition">
-              Hire Me
-            </button>
-            <button className="border border-blue-500 text-blue-500 px-6 py-2 rounded-md hover:bg-blue-100 transition">
-              Resume
-            </button>
+            <a href='#projects' className="bg-blue-600 text-white px-6 py-2 rounded-md hover:bg-blue-700 transition">
+             View Projects
+            </a>
+           <a
+             href="/Md.Mahadi Hasan_Resume.pdf" 
+             download="/Md.Mahadi Hasan_Resume.pdf"
+           >
+           <button className="border border-blue-500 text-blue-500 cursor-pointer px-6 py-2 rounded-md hover:bg-blue-100 transition">
+          Resume
+         </button>
+</a>
+
           </div>
         </div>
 
