@@ -24,7 +24,7 @@ const projects = [
     id: 3,
     route: "hobbyhub",
     name: "HobbyHub",
-    img: "https://i.ibb.co/qwFdWmw/Screenshot-2025-06-30-143505.png",
+    img: "https://i.ibb.co.com/b5tVrWkS/Screenshot-2025-08-20-022026.png",
     description:
       "HobbyHub is a MERN stack web app for discovering and joining local hobby groups. Users can create, update, delete groups, and view groups they’ve joined.",
   },

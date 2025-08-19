@@ -39,8 +39,8 @@ const Banner = () => {
              View Projects
             </a>
            <a
-             href="/Md.Mahadi Hasan_Resume.pdf" 
-             download="/Md.Mahadi Hasan_Resume.pdf"
+             href="/Resume of Md. Mahadi Hasan (Frontend Developer).pdf" 
+             download="/Resume of Md. Mahadi Hasan (Frontend Developer).pdf"
            >
            <button className="border border-blue-500 text-blue-500 cursor-pointer px-6 py-2 rounded-md hover:bg-blue-100 transition">
           Resume

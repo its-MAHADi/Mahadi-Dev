@@ -16,7 +16,7 @@ const About = () => {
             <p className="text-blue-500 font-semibold">MERN-Stack Web Developer</p>
             <div className="flex gap-4 mt-3 text-2xl">
               <a href="https://github.com/its-MAHADi"target='_blank'><FaGithub /></a>
-              <a href="#"target='_blank'><FaLinkedin /></a>
+              <a href="https://www.linkedin.com/in/md-mahadi-hasan-a165b6379"target='_blank'><FaLinkedin /></a>
               <a href="https://www.instagram.com/__m_a_h_a_d_i___/"target='_blank'><FaInstagram /></a>
               <a href="https://www.facebook.com/mh.mahadi.921944/"target='_blank'><FaFacebook /></a>
             </div>
