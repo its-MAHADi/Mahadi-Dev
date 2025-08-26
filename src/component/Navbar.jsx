@@ -26,7 +26,7 @@ const Navbar = () => {
               </div>
               <ul tabIndex={0}
                 className="menu menu-sm dropdown-content bg-base-100 rounded-box mt-3 w-52 p-2 shadow">
-                {["home", "about", "skills", "projects", "educational", "contact"].map((id) => (
+                {["home", "about", "skills", "educational", "experience", "projects", "contact"].map((id) => (
                   <li key={id}>
                     <a href={`#${id}`} className={linkClasses}>
                       {id.charAt(0).toUpperCase() + id.slice(1)}
@@ -44,7 +44,7 @@ const Navbar = () => {
           {/* Desktop Links */}
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1 gap-6 text-[16px] font-semibold">
-              {["home", "about", "skills", "projects", "educational", "contact"].map((id) => (
+              {["home", "about", "skills", "educational", "experience", "projects", "contact"].map((id) => (
                 <li key={id} className="list-none">
                   <HashLink smooth to={`/#${id}`} className={linkClasses}>
                     {id.charAt(0).toUpperCase() + id.slice(1)}

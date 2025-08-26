@@ -53,7 +53,7 @@ const Projects = () => {
     
   return (
     <div>
-         <section id="projects" className="max-w-6xl mx-auto px-4 py-16">
+         <section id="projects" className="max-w-6xl mx-auto px-4">
       {/* Title with motion underline */}
      
       <div className="text-center mb-8">
