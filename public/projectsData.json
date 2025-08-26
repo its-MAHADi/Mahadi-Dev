@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "name": "FitVerse-Website",
-    "img": "https://i.ibb.co.com/1fPTsnyX/Screenshot-2025-08-06-235040.png",
+    "name": "FitVerse Platform",
+    "img": "https://i.postimg.cc/Y9VFJPQ5/Screenshot-2025-08-26-220843.png",
     "description": "FitVerse is a full-featured MERN stack fitness platform where users can sign up as **Admins**, **Trainers**, or **Members**. It includes booking training sessions, managing classes, making payments, and engaging with a dynamic **community forum** that supports posts, voting, and image sharing.",
     "tech": ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "React Router", "Firebase","Axios","Stripe", "JWT"],
     "challenges": "Role-based Dashboard Logic: Maintaining 3 separate dashboards (Admin, Trainer, Member) with appropriate route guards and UI conditions.Conditional Rendering: Showing or hiding components based on roles, login status, or ownership.,Stripe Integration: Managing secure payments and post-payment success UI updates.",
@@ -12,8 +12,8 @@
   },
   {
     "id": 2,
-    "name": "Blog-Website",
-    "img": "https://i.ibb.co.com/twLLLSjr/Screenshot-2025-08-12-163116.png",
+    "name": "Blog Portal",
+    "img": "https://i.ibb.co.com/Jwr3K1BD/Screenshot-2025-08-26-231819.png",
     "description": "A full-stack blogging platform where users can read, search, filter, comment, and wishlist blogs. It features Firebase Authentication, JWT security, and responsive design.",
     "tech": ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS", "Firebase", "JWT"],
     "challenges": "Implementing dynamic search and category filter using MongoDB text index and aggregation. Handling secure user roles for commenting and wishlisting.",
@@ -23,8 +23,19 @@
   },
   {
     "id": 3,
+    "name": "NextShop Store",
+    "img": "https://i.postimg.cc/t4VTYTQV/Screenshot-2025-08-26-212501.png",
+    "description": "NextShop is a modern and responsive e-commerce platform built with **Next.js 14 (App Router)** and **Tailwind CSS**. It includes a clean Navbar, Footer, and a scalable structure ready for future e-commerce features.",
+    "tech": ["Next.js 14", "Tailwind CSS", "JavaScript (ES6+)", "npm", "Vercel"],
+    "challenges": "Favicon Issue: Initially Next.js default icon was showing instead of custom one, later resolved by adjusting `metadata.icons` and public path.,App Router Configuration: Managing routes with the new App Router structure.,Responsive Layout: Ensuring Navbar and Footer work perfectly across devices.",
+    "future": "Product Listing & Categories, Authentication System (Firebase/NextAuth), Shopping Cart & Checkout, Admin Dashboard, Advanced Search & Filter System.",
+    "live": "https://nextshop-mu.vercel.app/",
+    "github": "https://github.com/its-MAHADi/NextShop"
+  },
+  {
+    "id": 4,
     "name": "HobbyHub",
-    "img": "https://i.ibb.co.com/b5tVrWkS/Screenshot-2025-08-20-022026.png",
+    "img": "https://i.ibb.co.com/XkL3JjgF/Screenshot-2025-08-26-221516.png",
     "description": "HobbyHub is a MERN stack web app for discovering and joining local hobby groups. Users can create, update, delete groups, and view groups they’ve joined.",
     "tech": ["React", "MongoDB", "Express.js", "Node.js", "Firebase Auth", "DaisyUI", "JWT"],
     "challenges": "Filtering groups based on logged-in users and managing secure routes with conditional logic based on group ownership.",
@@ -33,8 +44,8 @@
     "github": "https://github.com/its-MAHADi/HobbyHub"
   },
   {
-    "id": 4,
-    "name": "DocTalk-Website",
+    "id": 5,
+    "name": "DocTalk",
     "img": "https://i.ibb.co/V07tXpLM/Screenshot-2025-06-30-163356.png",
     "description": "DocTalk is a doctor consultation booking platform. Users can view doctors, check availability, and book appointments with smooth animations and secure login.",
     "tech": ["React", "Firebase", "Tailwind CSS", "React Router", "Framer Motion"],

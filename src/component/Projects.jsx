@@ -7,7 +7,7 @@ const projects = [
   {
     id: 1,
     route: "FitVerse-Website",
-    name: "FitVerse Website",
+    name: "FitVerse Platform",
     img: "https://i.ibb.co.com/1fPTsnyX/Screenshot-2025-08-06-235040.png",
     description:
       "FitVerse is a full-featured MERN stack fitness platform where users can sign up as **Admins**, **Trainers**, or **Members**. It includes booking training sessions, managing classes, making payments, and engaging with a dynamic **community forum** that supports posts, voting, and image sharing.",
@@ -15,13 +15,21 @@ const projects = [
   {
     id: 2,
     route: "blog-Website",
-    name: "Blog Website",
+    name: "Blog Portal",
     img: "https://i.ibb.co.com/twLLLSjr/Screenshot-2025-08-12-163116.png",
     description:
       "A full-stack blogging platform where users can read, search, filter, comment, and wishlist blogs. It features Firebase Authentication, JWT security, and responsive design.",
   },
   {
     id: 3,
+    route: "nextShop",
+    name: "NextShop Store",
+    img: "https://i.postimg.cc/Zn1GgJf1/Screenshot-2025-08-26-212546.png",
+    description:
+      "NextShop is a modern and responsive e-commerce platform built with **Next.js 14 (App Router)** and **Tailwind CSS**. It includes a clean Navbar, Footer, and a scalable structure ready for future e-commerce features.",
+  },
+  {
+    id: 4,
     route: "hobbyhub",
     name: "HobbyHub",
     img: "https://i.ibb.co.com/b5tVrWkS/Screenshot-2025-08-20-022026.png",
@@ -29,9 +37,9 @@ const projects = [
       "HobbyHub is a MERN stack web app for discovering and joining local hobby groups. Users can create, update, delete groups, and view groups they’ve joined.",
   },
   {
-    id: 4,
+    id: 5,
     route: "DocTalk",
-    name: "DocTalk-Website",
+    name: "DocTalk",
     img: "https://i.ibb.co/V07tXpLM/Screenshot-2025-06-30-163356.png",
     description:
       "DocTalk is a doctor consultation booking platform. Users can view doctors, check availability, and book appointments with smooth animations and secure login.",
