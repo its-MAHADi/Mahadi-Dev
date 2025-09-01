@@ -44,6 +44,14 @@ const projects = [
     description:
       "DocTalk is a doctor consultation booking platform. Users can view doctors, check availability, and book appointments with smooth animations and secure login.",
   },
+  {
+    id: 6,
+    route: "English Janala",
+    name: "English Janala",
+    img: "https://i.ibb.co.com/Pv3kZ13W/Screenshot-2025-09-01-223322.png",
+    description:
+      "English Janala is an interactive web platform built using plain JavaScript to help users learn English easily through structured lessons, FAQs, and a clean responsive interface. It provides a simple way for beginners to start learning essential concepts.",
+  },
 ];
 
 

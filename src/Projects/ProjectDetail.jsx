@@ -51,12 +51,12 @@ const ProjectDetail = () => {
                 </motion.p>
 
                 {/* Info List */}
-                <ul className="space-y-4  mb-10">
+                <ul className="space-y-4 mb-10">
                     <li>
-                        <span className="font-semibold ">
+                        <span className="font-semibold">
                             Tech Stack:
                         </span>{' '}
-                        {project.tech}
+                        {project.tech.filter(Boolean).join(', ')}
                     </li>
                     <li>
                         <span className="font-semibold">

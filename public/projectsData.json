@@ -53,5 +53,16 @@
     "future": "Add prescription upload, appointment history, and real-time chat with doctors.",
     "live": "https://a8-doctalk-bd.netlify.app/",
     "github": "https://github.com/its-MAHADi/DocTalk-Website"
+  },
+    {
+    "id": 6,
+    "name": "English Janala",
+    "img": "https://i.ibb.co.com/TBSGFKhD/Screenshot-2025-09-01-231327.png",
+    "description": "English Janala is an interactive web platform designed to help users learn English easily through structured lessons, FAQs, and a clean responsive interface. It provides a simple way for beginners to start learning essential concepts with interactive content.",
+    "tech": [ "HTML", "Tailwind CSS","JavaScript", "Netlify", ""],
+    "challenges": "Designing an engaging yet minimal UI for beginners, creating a responsive layout across devices, and structuring FAQs to enhance learning without overwhelming users.",
+    "future": "Add progress tracking for users, introduce quizzes and mini-games, implement audio pronunciation for words, and include user authentication to save learning history.",
+    "live": "https://english-janala-mahadi.netlify.app/",
+    "github": "https://github.com/its-MAHADi/English-Janala"
   }
 ]
