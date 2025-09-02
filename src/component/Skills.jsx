@@ -126,7 +126,7 @@ const Skills = () => {
       </div>
 
       <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
-        <TabList className="flex justify-center border border-blue-300 rounded-full p-2 w-full md:w-[60%] mx-auto mb-6">
+        <TabList className="flex justify-center border border-blue-300 rounded-full p-2 w-full md:w-[60%] mx-auto mb-6 px-4">
           {categories.map((cat, i) => (
             <Tab
               key={cat}

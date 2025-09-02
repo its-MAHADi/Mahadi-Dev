@@ -72,21 +72,21 @@ const ContactInfo = () => {
         </h1>
       </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mt-15">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center lg:mt-15 px-2 lg:px-0">
                 {/* Contact Form */}
                 <motion.form
                     onSubmit={handleSubmit}
-                    className="space-y-6 bg-gray-50 dim:bg-gray-800 p-6 rounded-2xl shadow"
+                    className="space-y-6 border dim:bg-gray-800 p-6 rounded-2xl shadow"
                     initial={{ opacity: 0, x: -50 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.6 }}
                 >
                     {/* Title & Subtitle */}
                     <div className="text-center space-y-1">
-                        <h3 className="text-xl font-semibold text-gray-900 dim:text-white">
+                        <h3 className="text-xl font-semibold dim:text-white">
                             Send Me a Message
                         </h3>
-                        <p className="text-sm text-gray-600 dim:text-gray-400">
+                        <p className="text-sm dim:text-gray-400">
                             I’ll get back to you as soon as possible — usually within 24 hours.
                         </p>
                     </div>
@@ -97,7 +97,7 @@ const ContactInfo = () => {
                         value={formData.name}
                         onChange={handleChange}
                         placeholder="Your Name"
-                        className="w-full p-3 rounded-lg border dim:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-white dim:bg-gray-700 text-gray-800 dim:text-white"
+                        className="w-full p-3 rounded-lg border  focus:outline-none focus:ring-2 focus:ring-blue-400  "
                         required
                     />
                     <input
@@ -106,7 +106,7 @@ const ContactInfo = () => {
                         value={formData.email}
                         onChange={handleChange}
                         placeholder="Your Email"
-                        className="w-full p-3 rounded-lg border dim:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-white dim:bg-gray-700 text-gray-800 dim:text-white"
+                        className="w-full p-3 rounded-lg border  focus:outline-none focus:ring-2 focus:ring-blue-400 "
                         required
                     />
                     <textarea
@@ -115,7 +115,7 @@ const ContactInfo = () => {
                         onChange={handleChange}
                         rows="5"
                         placeholder="Your Message"
-                        className="w-full p-3 rounded-lg border dim:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-white dim:bg-gray-700 text-gray-800 dim:text-white"
+                        className="w-full p-3 rounded-lg border  focus:outline-none focus:ring-2 focus:ring-blue-400"
                         required
                     ></textarea>
                     <button
@@ -140,14 +140,14 @@ const ContactInfo = () => {
                             href={item.href}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="flex items-center gap-4 p-4 bg-gray-100 dim:bg-gray-800 rounded-lg shadow hover:scale-105 transition-transform hover:ring hover:ring-blue-400 focus:outline-none focus:ring-2"
+                            className="flex items-center gap-4 p-4 rounded-lg shadow hover:scale-105 transition-transform hover:ring hover:ring-blue-400 focus:outline-none focus:ring-2 border"
                         >
                             {item.icon}
                             <div>
-                                <p className="text-sm font-semibold text-gray-800 dim:text-white">
+                                <p className="text-sm font-semibold  ">
                                     {item.label}
                                 </p>
-                                <p className="text-sm text-gray-600 dim:text-gray-400">
+                                <p className="text-sm ">
                                     {item.value}
                                 </p>
                             </div>

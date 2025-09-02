@@ -7,24 +7,31 @@ const Footer = () => {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, ease: 'easeOut' }}
-      className=" border-t-2 py-6 mt-16"
+      className="border-t py-6 mt-16"
     >
-      <div className="max-w-6xl mx-auto px-4 text-center">
-        {/* Optional Logo or Name */}
-        <h3 className="text-xl font-semibold mb-2">Md.Mahadi Hasan</h3>
+      <div className="text-center flex flex-col items-center space-y-4">
+        {/* Name or Logo */}
+        <h3 className="text-lg md:text-xl font-semibold">Md. Mahadi Hasan</h3>
 
-        {/* Optional Navigation Links */}
-        <div className="flex justify-center space-x-6 mb-4 text-sm">
-          <a href="#hero" className="hover:underline">Home</a>
-          <a href="#about" className="hover:underline">About</a>
-          <a href="#skills" className="hover:underline">Skills</a>
-          <a href="#projects" className="hover:underline">Projects</a>
-          <a href="#educational" className="hover:underline">Educational</a>
-          <a href="#contact" className="hover:underline">Contact</a>
-        </div>
+        {/* Navigation Links */}
+        <nav>
+          <ul className="flex flex-wrap justify-center gap-3 md:gap-6 text-sm md:text-base">
+            <li><a href="#hero" className="hover:text-blue-600 transition-colors">Home</a></li>
+            <li><a href="#about" className="hover:text-blue-600 transition-colors">About</a></li>
+            <li><a href="#skills" className="hover:text-blue-600 transition-colors">Skills</a></li>
+            <li><a href="#projects" className="hover:text-blue-600 transition-colors">Projects</a></li>
+            <li><a href="#educational" className="hover:text-blue-600 transition-colors">Educational</a></li>
+            <li><a href="#contact" className="hover:text-blue-600 transition-colors">Contact</a></li>
+          </ul>
+        </nav>
+
+        {/* Divider */}
+        <div className="w-full h-px bg-gray-200 dark:bg-gray-700"></div>
 
         {/* Copyright */}
-        <p className="text-xs">&copy; {new Date().getFullYear()} Designed and Developed by Md.Mahadi Hasan</p>
+        <p className="text-xs text-gray-500">
+          &copy; {new Date().getFullYear()} Designed & Developed by <span className="font-medium">Md. Mahadi Hasan</span>
+        </p>
       </div>
     </motion.footer>
   );

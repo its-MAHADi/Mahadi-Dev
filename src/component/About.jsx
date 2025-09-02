@@ -6,7 +6,7 @@ import profile from '../assets/Md.Mahadi Hasan.jpg'; // replace with your image
 const About = () => {
   return (
     <div id='about' className="py-7">
-      <div className=" grid grid-cols-1 md:grid-cols-2 items-center gap-10">
+      <div className=" grid grid-cols-1 md:grid-cols-2 items-center gap-10 px-4">
 
         {/* Left: Image and Socials */}
         <Slide direction="left" triggerOnce>

@@ -52,16 +52,16 @@ const Banner = () => {
 
         {/* Image with Orbiting Icons */}
         <div className="flex-1 flex justify-center">
-          <div className="relative w-[280px] h-[280px] lg:w-[350px] lg:h-[350px] shrink-0">
+          <div className="relative mt-2 w-[262px] h-[262px] lg:w-[350px] lg:h-[350px] shrink-0 ml-2">
             {/* Orbiting Icons */}
          <div className="absolute inset-0 animate-pulse">
             {/* Top Center */}
-            <div className="absolute top-[-30px] left-1/2 transform -translate-x-1/2">
+            <div className="absolute top-[-35px] left-1/2 transform -translate-x-1/2">
               <FaReact size={28} color="#61DBFB" />
             </div>
           
             {/* Bottom Center */}
-            <div className="absolute bottom-[-30px] left-1/2 transform -translate-x-1/2">
+            <div className="absolute bottom-[-35px] left-1/2 transform -translate-x-1/2">
               <FaJs size={28} color="#F7DF1E" />
             </div>
           
@@ -76,22 +76,22 @@ const Banner = () => {
             </div>
           
             {/* Top Left Corner */}
-            <div className="absolute top-[5%] left-[10%]">
+            <div className="absolute top-[5%] left-[5%]">
               <SiTailwindcss size={24} color="#38BDF8" />
             </div>
           
             {/* Top Right Corner */}
-            <div className="absolute top-[5%] right-[10%]">
+            <div className="absolute top-[3%] right-[5%]">
               <FaNodeJs size={26} color="#3C873A" />
             </div>
           
             {/* Bottom Left Corner */}
-            <div className="absolute bottom-[5%] left-[10%]">
+            <div className="absolute bottom-[5%] left-[5%]">
               <SiMongodb size={26} color="#47A248" />
             </div>
           
             {/* Bottom Right Corner */}
-            <div className="absolute bottom-[5%] right-[10%]">
+            <div className="absolute bottom-[3%] right-[5%]">
               <SiExpress size={22} color="#000000" />
             </div>
           

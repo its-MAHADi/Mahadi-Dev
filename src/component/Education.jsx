@@ -27,7 +27,7 @@ const EducationalQualifications = () => {
        Educational
         </h1>
       </div>
-      <div className="max-w-6xl mx-auto px-4 md:p-6 rounded-3xl shadow-lg md:px-5 z-10 relative">
+      <div className="max-w-6xl mx-auto md:p-6 rounded-3xl shadow-lg md:px-5 z-10 relative">
         <div className="flex flex-col md:flex-row items-center justify-between  p-5 border  rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
           <div className="w-full md:w-1/2">
             <img

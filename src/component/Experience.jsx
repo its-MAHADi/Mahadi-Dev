@@ -4,15 +4,15 @@ import { Briefcase } from "lucide-react";
 
 const Experience = () => {
   return (
-    <section id="experience" className="py-16">
-      <div className="max-w-6xl mx-auto px-4 text-center">
+    <section id="experience" className="py-10">
+      <div className="max-w-6xl mx-auto px-5 lg:px-0 text-center">
         <Fade cascade damping={0.2} triggerOnce>
-          <h1 className="text-4xl font-bold inline-block border-b-4 border-blue-500 pb-1 mb-10">
+          <h1 className="text-3xl font-bold inline-block border-b-4  border-blue-500 pb-1 mb-8">
             Work Experience
           </h1>
 
-          <div className="relative border-l-4 border-blue-500 pl-8 inline-block text-left">
-            <div className="mb-8 shadow-md rounded-md border-2 p-6">
+          <div className="relative border-l-4 border-blue-500 lg:pl-8 pl-4 inline-block text-left">
+            <div className="mb-7 shadow-md rounded-md border-2 p-6 mt-6">
               <div className="absolute -left-[22px] top-6 w-6 h-6 rounded-full bg-blue-500 flex items-center justify-center">
                 <Briefcase className="w-3.5 h-3.5 text-white" />
               </div>
