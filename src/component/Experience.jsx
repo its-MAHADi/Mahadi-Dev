@@ -33,9 +33,30 @@ const Experience = () => {
                 maintain high code quality standards.
               </p>
             </div>
+
+
+            {/* digi5 */}
+             <div className="mb-7 shadow-md rounded-md border-2 p-6 mt-6">
+              <div className="absolute -left-[22px] top-6 w-6 h-6 rounded-full bg-blue-500 flex items-center justify-center">
+                <Briefcase className="w-3.5 h-3.5 text-white" />
+              </div>
+              <h3 className="text-xl font-semibold">
+                Frontend Developer
+              </h3>
+              <p className="text-sm">Digi5 Ltd</p>
+              <span className="text-sm text-blue-500 font-medium block mt-1">
+              09/2025 – 01/2026
+              </span>
+              <p className="mt-3 leading-relaxed">
+                Completed an internship at <b>Digi5 Ltd</b>, where I developed responsive user interfaces for web applications using modern frontend technologies. Collaborated with team members to build efficient and scalable UI components. Worked closely with the development team to ensure smooth user experiences across different devices and browsers. Participated in team discussions and code reviews, contributing to maintaining high code quality standards.
+              </p>
+            </div>
+
+
           </div>
         </Fade>
       </div>
+      
     </section>
   );
 };

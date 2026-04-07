@@ -7,7 +7,7 @@ const EducationalQualifications = () => {
       institution: "Northern University Bangladesh | NUB ",
       department: "Computer Science & Engineering",
       year: "Expected Graduation: 2029",
-      status: "Secound Semester",
+      status: "Fourth-semester",
       duration: "4 Years",
       relevantCoursework: [
         "Data Structures and Algorithms",
